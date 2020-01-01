@@ -5,7 +5,7 @@ on:
       - known-good
       - 'releases/*'   # only run in release distribution branches
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: '0 0 1 * *'
 
 jobs:
   ngx-uptodate:
