@@ -3,6 +3,7 @@ on:
   pull_request:
   push:
     branches:    
+      - known-good
       - develop
       - 'releases/*'   # only run in release distribution branches
 
