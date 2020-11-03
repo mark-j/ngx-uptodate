@@ -2,6 +2,7 @@ name: "Update Angular Action"
 on:
   push:
     branches:    
+      - known-good
       - 'releases/*'   # only run in release distribution branches
   schedule:
     - cron: '0 */8 * * *'
